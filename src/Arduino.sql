@@ -53,4 +53,5 @@ COMMIT;
 DROP USER 'ruben'@'localhost';
 FLUSH PRIVILEGES;
 CREATE USER 'ruben'@'localhost' IDENTIFIED BY 'ruben';
+GRANT ALL PRIVILEGES ON * . * TO 'ruben'@'localhost';
 FLUSH PRIVILEGES;
