@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y 
 sudo apt install mysql-server phpmyadmin apache2 -y
 
 sudo systemctl start mysql.service
